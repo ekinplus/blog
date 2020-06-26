@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8d37a54-4bc0-406f-9ee9-29116f8461df" name="Default Changelist" comment="前后端分离个人博客后端">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/BlogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/dto/LoginDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/lang/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/mapper/BlogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/BlogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountProfile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/util/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/util/ShiroUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/ekin/BlogApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TjShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TjShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/src/main/java/com/ekin/ssm/dao/EpidemicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/src/main/java/com/ekin/ssm/dao/EpidemicDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/ekin_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/ekin_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/ekin_ssm_entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/ekin_ssm_entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/ekin_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/ekin_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/ekin_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/ekin_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/epidemic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic01/web/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/web/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic01/web/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/web/epidemic.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SecurityManager</find>
+      <find>RedisCacheManager</find>
+      <find>ShiroFilterChainDefinition</find>
+      <find>markerhub</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ekin</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/BlogApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/lang/Result.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/JwtToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/util/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/AccountRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/AccountProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/dto/LoginDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/util/ShiroUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files (x86)/maven/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5" />
+    <option name="width" value="1400" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ekin.controller" />
+      <recent name="com.ekin.common.dto" />
+      <recent name="com.ekin.config" />
+      <recent name="com.ekin.common.exception" />
+      <recent name="com.ekin.shiro" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\resources" />
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin" />
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin\blog" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ekin.blog.CodeGenerator" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ekin.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ekin.BlogApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Spring Boot.BlogApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8d37a54-4bc0-406f-9ee9-29116f8461df" name="Default Changelist" comment="" />
+      <created>1592635577463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592635577463</updated>
+      <workItem from="1592635588696" duration="2221000" />
+      <workItem from="1592641085434" duration="6576000" />
+      <workItem from="1592719021389" duration="262000" />
+      <workItem from="1592719405290" duration="775000" />
+      <workItem from="1592979539037" duration="1225000" />
+      <workItem from="1593150837814" duration="17793000" />
+    </task>
+    <task id="LOCAL-00001" summary="前后端分离个人博客后端">
+      <created>1593162172829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593162172829</updated>
+    </task>
+    <task id="LOCAL-00002" summary="前后端分离个人博客后端">
+      <created>1593166611579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593166611579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="前后端分离个人博客后端">
+      <created>1593177090076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593177090077</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30728000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Repositories" order="8" weight="0.3295302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3849432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3849432" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32954547" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32954547" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.3295302" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3657718" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24966443" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../../../新建文件夹 (2)" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/../../../新建文件夹 (2)" />
+      <path value="$PROJECT_DIR$/../../qqq" />
+    </ignored-roots>
+    <MESSAGE value="前后端分离个人博客后端" />
+    <option name="LAST_COMMIT_MESSAGE" value="前后端分离个人博客后端" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ekin/util/ShiroUtil.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/BlogApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/dto/LoginDto.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/exception/GlobalExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/lang/Result.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/CorsConfig.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/ShiroConfig.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/entity/User.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/mapper/BlogMapper.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/mapper/UserMapper.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/impl/BlogServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/impl/UserServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/BlogService.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/UserService.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountProfile.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountRealm.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtFilter.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtToken.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/util/JwtUtils.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/util/ShiroUtil.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/BlogApplication.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$1.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$2.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/spring-devtools.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/ekin/BlogApplicationTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.ipr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.iws">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="-U idea:idea" />
+    <option value="U idea:idea" />
+  </component>
+</project>
