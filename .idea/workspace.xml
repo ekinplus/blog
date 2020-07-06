@@ -1,67 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8d37a54-4bc0-406f-9ee9-29116f8461df" name="Default Changelist" comment="前后端分离个人博客后端">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/BlogApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/dto/LoginDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/common/lang/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/CorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/ShiroConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/mapper/BlogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/BlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/impl/BlogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountProfile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/util/JwtUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ekin/util/ShiroUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/ekin/BlogApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TjShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TjShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/src/main/java/com/ekin/ssm/dao/EpidemicDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/src/main/java/com/ekin/ssm/dao/EpidemicDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/ekin_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/ekin_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/ekin_ssm_entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/ekin_ssm_entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_entity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/ekin_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/ekin_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/ekin_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/ekin_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ekin_ssm/ekin_ssm_web/target/tomcat/work/Tomcat/localhost/ekin_ssm_web/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epidemic01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/out/artifacts/epidemic01/epidemic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epidemic01/web/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/web/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epidemic01/web/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic01/web/epidemic.jsp" afterDir="false" />
+    <list default="true" id="d8d37a54-4bc0-406f-9ee9-29116f8461df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_ssl_config_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/search/model/PostDocment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/search/mq/MqMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/search/mq/PostMqIndexMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/search/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ekin/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ekin/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ekin/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ekin/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ekin/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ekin/BlogApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ekin/BlogApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,7 +112,119 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="45" column="32" selection-start-line="44" selection-start-column="4" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/service/impl/SearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="47" column="90" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/model/PostDocment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/entity/Blog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/mq/PostMqIndexMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/mq/MqMessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1250">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/repository/PostRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/RabbitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,19 +239,14 @@
       <find>RedisCacheManager</find>
       <find>ShiroFilterChainDefinition</find>
       <find>markerhub</find>
+      <find>getTotalHits</find>
     </findStrings>
     <replaceStrings>
       <replace>ekin</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,13 +255,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/BlogApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/blog/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/lang/Result.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/JwtToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/util/JwtUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/AccountRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/AccountProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/exception/GlobalExceptionHandler.java" />
@@ -128,9 +266,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/shiro/JwtFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/common/dto/LoginDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/util/ShiroUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/ElasticSearchClientConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/search/repository/PostRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/entity/Blog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/search/mq/MqMessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/articlesearch_mapping.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ekin/search/model/PostDocment.java" />
       </list>
     </option>
   </component>
@@ -141,6 +295,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/Program Files (x86)/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files (x86)\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -169,14 +324,34 @@
           <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.2.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.data:spring-data-elasticsearch:3.2.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="width" value="1400" />
-    <option name="height" value="785" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -193,12 +368,17 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-vue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,25 +392,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ekin/search" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ekin.search.mq" />
+      <recent name="com.ekin.config" />
+      <recent name="com.ekin.service" />
       <recent name="com.ekin.controller" />
       <recent name="com.ekin.common.dto" />
-      <recent name="com.ekin.config" />
-      <recent name="com.ekin.common.exception" />
-      <recent name="com.ekin.shiro" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\resources" />
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin\search" />
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin\service\impl" />
       <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin" />
+      <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\resources" />
       <recent name="D:\xxrj\新建文件夹\idea\blog\src\main\java\com\ekin\blog" />
     </key>
   </component>
@@ -260,6 +442,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogApplicationTests.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ekin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ekin" />
+      <option name="MAIN_CLASS_NAME" value="com.ekin.BlogApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ekin.BlogApplication" />
@@ -270,10 +468,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.BlogApplicationTests.testCreateIndex" />
       <item itemvalue="Spring Boot.BlogApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogApplicationTests.testCreateIndex" />
         <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
@@ -294,6 +494,21 @@
       <workItem from="1592719405290" duration="775000" />
       <workItem from="1592979539037" duration="1225000" />
       <workItem from="1593150837814" duration="17793000" />
+      <workItem from="1593177980352" duration="1553000" />
+      <workItem from="1593240598737" duration="908000" />
+      <workItem from="1593241918685" duration="2537000" />
+      <workItem from="1593253205224" duration="1356000" />
+      <workItem from="1593323927255" duration="4205000" />
+      <workItem from="1593421411946" duration="651000" />
+      <workItem from="1593424895554" duration="146000" />
+      <workItem from="1593426762945" duration="608000" />
+      <workItem from="1593530099481" duration="1981000" />
+      <workItem from="1593584705390" duration="5205000" />
+      <workItem from="1593853769385" duration="12611000" />
+      <workItem from="1593878729632" duration="788000" />
+      <workItem from="1593919123292" duration="31111000" />
+      <workItem from="1594001884014" duration="1036000" />
+      <workItem from="1594005778875" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离个人博客后端">
       <created>1593162172829</created>
@@ -316,16 +531,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593177090077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="前后端分离个人博客后端">
+      <created>1593177324283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593177324283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BlogApplicationTests_testCreateIndex - 2020.07.05 at 00h 18m 18s.xml">
+      <configuration name="BlogApplicationTests.testCreateIndex" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30728000" />
+    <option name="totallyTimeSpent" value="96302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,13 +563,13 @@
       <window_info id="Repositories" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3849432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3494318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2315341" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3849432" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -411,6 +638,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -423,146 +664,11 @@
     <MESSAGE value="前后端分离个人博客后端" />
     <option name="LAST_COMMIT_MESSAGE" value="前后端分离个人博客后端" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ekin/util/ShiroUtil.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/BlogApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/dto/LoginDto.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/exception/GlobalExceptionHandler.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/common/lang/Result.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/CorsConfig.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/MybatisPlusConfig.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/config/ShiroConfig.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/AccountController.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/BlogController.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/controller/UserController.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/entity/Blog.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/entity/User.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/mapper/BlogMapper.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/mapper/UserMapper.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/impl/BlogServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/impl/UserServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/BlogService.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/service/UserService.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountProfile.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/AccountRealm.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtFilter.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/shiro/JwtToken.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/util/JwtUtils.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/util/ShiroUtil.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/BlogApplication.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$1.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator$2.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ekin/CodeGenerator.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -601,10 +707,341 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/validation/annotation/Validated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/common/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/common/dto/LoginDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.3/hutool-all-5.3.3-sources.jar!/cn/hutool/core/map/MapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="823" column="42" selection-start-line="823" selection-start-column="42" selection-end-line="823" selection-end-column="42" />
+          <folding>
+            <element signature="e#19375#19376#0" expanded="true" />
+            <element signature="e#19413#19414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.6.RELEASE/spring-boot-dependencies-2.2.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="185" column="36" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.2.6.RELEASE/spring-boot-starter-parent-2.2.6.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/ElasticSearchClientConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.3/hutool-all-5.3.3-sources.jar!/cn/hutool/core/map/MapBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding>
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/common/lang/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/util/ShiroUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/service/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.2.0/mybatis-plus-extension-3.2.0-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4823">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/mapper/BlogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.2.6.RELEASE/spring-data-elasticsearch-3.2.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="515" column="54" lean-forward="true" selection-start-line="515" selection-start-column="54" selection-end-line="515" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.6.1/elasticsearch-7.6.1-sources.jar!/org/elasticsearch/search/SearchHits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1626">
+          <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11795#0" expanded="true" />
+            <element signature="e#5010#5011#0" expanded="true" />
+            <element signature="e#5042#5043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ekin/BlogApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1590">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/BlogApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/articlesearch_mapping.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/service/impl/BlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="45" column="32" selection-start-line="44" selection-start-column="4" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="47" column="90" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/entity/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/mq/PostMqIndexMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/mq/MqMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ekin/search/model/PostDocment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

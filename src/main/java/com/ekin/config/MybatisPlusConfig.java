@@ -1,6 +1,7 @@
 package com.ekin.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
+import org.modelmapper.ModelMapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,5 +15,10 @@ public class MybatisPlusConfig {
     public PaginationInterceptor paginationInterceptor() {
         PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
         return paginationInterceptor;
+    }
+
+    @Bean
+    ModelMapper modelMapper() {
+        return new ModelMapper();
     }
 }
