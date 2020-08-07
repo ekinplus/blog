@@ -39,7 +39,7 @@ public class JwtUtils {
                 .signWith(SignatureAlgorithm.HS512, secret)
                 .compact();
     }
-
+    //校验JWT
     public Claims getClaimByToken(String token) {
         try {
             return Jwts.parser()

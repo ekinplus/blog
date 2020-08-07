@@ -6,6 +6,7 @@ import com.ekin.service.UserService;
 import com.ekin.util.JwtUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +28,15 @@ public class AccountRealm extends AuthorizingRealm {
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
+        AccountProfile principal = (AccountProfile) principals.getPrimaryPrincipal();
+        // 硬编码
+        if(principal.getUsername().equals("admin") || principal.getId() == 0){
+            SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+            info.addRole("admin");
+            return info;
+        }
         return null;
+
     }
 
     @Override
@@ -44,6 +53,7 @@ public class AccountRealm extends AuthorizingRealm {
 
         if (user.getStatus() == -1) {
             throw new LockedAccountException("账户已被锁定");
+
         }
 
         AccountProfile profile = new AccountProfile();
@@ -51,4 +61,5 @@ public class AccountRealm extends AuthorizingRealm {
 
         return new SimpleAuthenticationInfo(profile, jwtToken.getCredentials(), getName());
     }
+
 }

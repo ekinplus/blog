@@ -25,7 +25,6 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -51,21 +50,22 @@ public class BlogController {
     @GetMapping("/blogs")
     public Result list(@RequestParam(defaultValue = "1") Integer currentPage) {
 
-        /*return Result.success("ES索引初始化成功，共 " + total + " 条记录！", null);*/
         Page page = new Page(currentPage, 5);
         IPage<Blog> pageData = blogService.page(page, new QueryWrapper<Blog>().orderByDesc("created"));
 
         return Result.succ(pageData);
     }
 
-        @GetMapping("/blog/{id}")
+    @GetMapping("/blog/{id}")
     public Result detail(@PathVariable(name = "id") Long id) {
         Blog blog = blogService.getById(id);
         Assert.notNull(blog, "该博客已被删除");
+        blogService.setViewCount(blog);
 
         return Result.succ(blog);
     }
 
+    @RequiresAuthentication
     @PostMapping("/blog/delete/{id}")
     public Result delete(@PathVariable(name = "id") Long id) {
         boolean b = blogService.removeById(id);
@@ -103,6 +103,7 @@ public class BlogController {
             temp.setUserId(ShiroUtil.getProfile().getId());
             temp.setUserName(ShiroUtil.getProfile().getUsername());
             temp.setCreated(new Date());
+            temp.setViewCount(1);
             temp.setStatus(0);
         }
 

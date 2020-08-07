@@ -13,4 +13,5 @@ import com.ekin.entity.Blog;
  */
 public interface BlogService extends IService<Blog> {
 
+    void setViewCount(Blog blog);
 }

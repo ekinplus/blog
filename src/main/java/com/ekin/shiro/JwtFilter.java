@@ -28,7 +28,7 @@ public class JwtFilter extends AuthenticatingFilter {
 
     @Override
     protected AuthenticationToken createToken(ServletRequest servletRequest, ServletResponse servletResponse) throws Exception {
-
+        //将JWT转为shiro的token,用来进行登录
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         String jwt = request.getHeader("Authorization");
         if(StringUtils.isEmpty(jwt)) {

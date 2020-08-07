@@ -24,6 +24,7 @@ public class MqMessageHandler {
         switch (message.getType()) {
             case PostMqIndexMessage.CREATE_OR_UPDATE:
                 searchService.createOrUpdateIndex(message);
+                System.out.println("ds");
                 break;
             case PostMqIndexMessage.REMOVE:
                 searchService.removeIndex(message);

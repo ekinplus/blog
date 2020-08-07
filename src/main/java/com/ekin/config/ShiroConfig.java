@@ -53,7 +53,7 @@ public class ShiroConfig {
     public ShiroFilterChainDefinition shiroFilterChainDefinition() {
         DefaultShiroFilterChainDefinition chainDefinition = new DefaultShiroFilterChainDefinition();
         Map<String, String> filterMap = new LinkedHashMap<>();
-        filterMap.put("/**", "jwt");
+        filterMap.put("/**", "jwt"); //定义哪些链接需要被哪些过滤器过滤
         chainDefinition.addPathDefinitions(filterMap);
         return chainDefinition;
     }
@@ -65,7 +65,7 @@ public class ShiroConfig {
         shiroFilter.setSecurityManager(securityManager);
 
         Map<String, Filter> filters = new HashMap<>();
-        filters.put("jwt", jwtFilter);
+        filters.put("jwt", jwtFilter);  //加入自定义过滤器
         shiroFilter.setFilters(filters);
 
         Map<String, String> filterMap = shiroFilterChainDefinition.getFilterChainMap();
@@ -74,6 +74,4 @@ public class ShiroConfig {
         return shiroFilter;
 
     }
-
-
 }
