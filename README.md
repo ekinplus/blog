@@ -4,8 +4,8 @@
 本博客是学习过程中搭建的项目，为了融合更多知识点，让博客看起来更加高大上，使用了多个框架组合。目前实现了博客的增删改查，搭建了博客搜索引擎。
 
 ### 实现效果：
-![image](https://github.com/ekinplus/blog/tree/master/src/main/resources/static/2.png)
-![image](https://github.com/ekinplus/blog/tree/master/src/main/resources/static/3.png)
+![image](https://img-blog.csdnimg.cn/20200706142755515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ppZV83MDEy,size_16,color_FFFFFF,t_70)
+![image](https://img-blog.csdnimg.cn/20200706143239387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ppZV83MDEy,size_16,color_FFFFFF,t_70)
 ### 技术栈：
 * SpringBoot
 * Rabbitmq
